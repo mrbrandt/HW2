@@ -5,12 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="StyleSheet2.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
-        Hourly Wage:
+        Hourly Wage: 
         <br />
         <br />
         <asp:TextBox ID="hourlyWage" runat="server"></asp:TextBox>
@@ -39,7 +40,7 @@
         <br />
         <br />
         <br />
-        <strong>Estimated Net Pay::</strong>
+        <strong>Estimated Net Pay:</strong>
         <br />
         <br />
         <asp:Label ID="netPayLabel" runat="server"></asp:Label>
